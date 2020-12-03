@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/SetOk"
+        android:layout_width="167dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_centerHorizontal="true"
+        android:onClick="toZero"
+        android:text="兌換獎品"
+        android:textSize="30sp"
+        android:visibility="visible"/>
+
+
+    <ImageView
+        android:id="@+id/screenImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/stamp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+
+            <ImageView
+                android:id="@+id/stamp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/stamp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+
+            <ImageView
+                android:id="@+id/stamp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/stamp5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+
+            <ImageView
+                android:id="@+id/stamp6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.75"
+                android:background="@android:color/transparent"
+                android:src="@drawable/white_base" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
